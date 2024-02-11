@@ -67,7 +67,7 @@ async function fetchData() {
         throw error;
     }
 }
-if (window.location.pathname.includes("index.html")) {
+if (window.location.pathname.includes("")) {
     // If yes, fetch cat data
     fetchData()
 }
