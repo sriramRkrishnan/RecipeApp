@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(to right , rgb(15, 60, 66) , rgb(10, 94, 76));
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.fav{
+    display: flex;
+    align-items: center;
+    width: 8rem;
+    justify-content: space-evenly;
+}
+
+input , .search{
+    background-color: white;
+    border: none;
+    color: #333;
+}
+
+input{
+    width: 15rem;
+    padding: 0rem 1rem;
+}
+
+input:focus{
+    outline: none;
+}
+
+.search-div{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    height: 1rem;
+}
+
+.category-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list,.listCat{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    margin: 1rem;
+    width: 15rem;
+    padding: 2rem;
+    background-color: rgb(219, 255, 245);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.head{
+    font-weight: 700;
+    padding: 1rem;
+}
+
+img{
+    width: 15rem;
+}
+
+.view{
+    margin-top: 1rem;
+    width: 100%;
+    background-color:  rgb(15, 60, 66);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+}
+
+.searchBtn{
+    width: 100%;
+    background-color:  rgb(15, 60, 66);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.searchDiv{
+    display: flex;
+    align-items: center;
+}
